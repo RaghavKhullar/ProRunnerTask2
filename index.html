@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+    <div id="scoring" >
+      <div id="score">Score:0</div>
+    <div id="hiscore">Hi-Score:</div>
+</div>
+    <canvas id="canvas" >
+       <img  id="slow" src="9d64af0d814563ac84541b7ab22002b9.png">
+       <img  id="life" src="Untitled-2.png">
+    </canvas>
+ 
+    <div class="modal2" id="modal2">
+        <div class="modal-header2">
+      
+            <div class="modal-title2">WELCOME TO PRO RUNNER!!! </div>
+            
+            
+        </div>
+        
+        <div class="buttons">
+            <button id="start" onClick="start()">Start</button>
+            
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-header">
+      
+            <div class="modal-title" style="text-align: center;">GAME OVER!!! </div>
+            
+            
+        </div>
+        <div id="modal-content">
+            
+        </div>
+        <div class="buttons">
+            <button id="reset" onClick="window.location.reload();">Reset</button>
+            
+        </div>
+    </div>
+    <script src="canvas.js"></script>
+</body>
+</html>
